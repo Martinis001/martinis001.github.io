@@ -1,50 +1,177 @@
 <!DOCTYPE html>
-<html lang= "pt-BR">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 
     <!-- SEO Básico -->
     <meta
         name="description"
-        content="Portófolio pessoal de Pedro Martins, Desenvolvedor
-        front-end. Conheça meus projetos, habilidades e formas de contato.">
+        content="Portfólio pessoal de Pedro Martins, desenvolvedor Front-end. Conheça meus projetos, habilidades e formas de contato.">
 
-    <title>Pedro Martins | Portófolio</title>    
+    <title>Pedro Martins | Portfólio</title>
 </head>
 
 <body>
 
     <!-- Cabeçalho -->
-     <header>
+    <header>
 
         <h1>Pedro Martins</h1>
 
-        <p>Desenvolvedor front-end | Editor de Video</p>
+        <p class="cargo">Desenvolvedora Front-end</p>
 
         <!-- Menu -->
-         <nav>
+        <nav>
             <a href="#hero">Início</a>
             <a href="#sobre">Sobre</a> |
-            <a href="#habilidades">habilidades</a> |
-            <a href="projetos">Projetos</a> |
-            <a href="contato">Contato</a>
+            <a href="#habilidades">Habilidades</a> |
+            <a href="#projetos">Projetos</a> |
+            <a href="#contato">Contato</a>
 
-         </nav>
-     </header>
+        </nav>
 
-     <!-- Hero -->
-      <section id="hero">
+    </header>
 
-        <h2>Olá, eu sou Pedro!</h2>
+    <!-- Conteúdo principal -->
+    <main>
 
-        <img
-            src="imagens/perfil.jpg"
-            alt="Foto de Pedro Martins">
-        <p> 
-            sou estudante de desenvol
+        <!-- Hero -->
+        <section id="hero">
+
+            <h2>Olá, eu sou Pedro!</h2>
+
+            <img
+                src="imagens/lisa.png"
+                alt="Foto de Pedro Martins">
+
+            <p>
+                Sou estudante de desenvolvimento web e estou construindo
+                meu portfólio para compartilhar meus projetos e aprendizados.
+            </p>
+
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre">
+
+            <h2>Sobre Mim</h2>
+
+            <p>
+                Tenho interesse em desenvolvimento web e estou aprendendo
+                HTML, CSS e outras tecnologias para criar sites modernos.
+            </p>
+
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git e GitHub</li>
+            </ul>
+
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+
+            <h2>Projetos</h2>
+
+            <table border="1">
+
+                <tr>
+                    <td>Projeto</td>
+                    <td>Descrição</td>
+                </tr>
+
+                <tr>
+                    <td>Landing Page</td>
+                    <td>Página criada utilizando HTML.</td>
+                </tr>
+
+                <tr>
+                    <td>Currículo Online</td>
+                    <td>Primeira versão do meu portfólio.</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+
+            <h2>Entre em Contato</h2>
+
+            <form action="#" method="post">
+
+                <p>
+
+                    <label for="nome">Nome</label><br>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome">
+
+                </p>
+
+                <p>
+
+                    <label for="email">E-mail</label><br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email">
+
+                </p>
+
+                <p>
+
+                    <label for="senha">Senha</label><br>
+
+                    <input
+                        type="password"
+                        id="senha"
+                        name="senha">
+
+                </p>
+
+                <p>
+
+                    <input
+                        type="submit"
+                        value="Enviar">
+
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+
+        <p>&copy; 2026 Maria dos Santos</p>
+
+        <p>E-mail: contatomartins148@email.com</p>
+
+        <p>
+            <a class="link-social" href="#">GitHub</a> |
+            <a class="link-social" href="#">LinkedIn</a>
         </p>
 
-      </section>
+    </footer>
+
 </body>
+
 </html>
