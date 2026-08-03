@@ -1,5 +1,9 @@
+/* ========================================
+   ESTILOS DOS ELEMENTOS
+   ======================================== */
+
 h1 {
-    color: 222;
+    color: #222;
     font-size: 40px;
     text-align: center;
 }
@@ -18,49 +22,94 @@ a {
 }
 
 
-/* ===========================================
-CLASSE
-   =========================================== */
-
+/* ========================================
+   CLASSE
+   ======================================== */
 
 .cargo {
     color: #666;
-    font=weight: bold;
+    font-weight: bold;
 }
 
-/* ==============================================
-SEÇÕES
-   ============================================== */
+.link-social {
+    color: #333;
+    text-decoration: none;
+}
 
-   #hero {
+
+/* ========================================
+   SEÇÕES
+   ======================================== */
+
+#hero {
+    /*Aula 5*/
+    /*padding: 30px;
+    margin: 20px;
+    border: 2px solid black;*/
     background-color: #e8f4f8;
-   }
+}
 
-   #sobre {
+#hero img {
+    /*width: 300px;
+    height: auto;*/
+}
+
+* {
+    /*box-sizing: border-box;*/
+}
+
+#sobre {
     background-color: #f5f5f5;
-   }
-   
-   #habilidades {
+}
+
+#habilidades {
     background-color: #eeeeee;
-   }
+}
 
-   #projetos {
+#projetos {
     background-color: #f5f5f5;
-   }
+}
 
-   #contato {
+#contato {
     background-color: #e8f4f8;
-   }
+}
 
 
-   /* ==============================================
-RODAPÉ
-      ============================================== */
+/* ========================================
+   RODAPÉ
+   ======================================== */
 
-      footer {
-        background-color: #222;
-      }
+footer {
+    background-color: #222;
+}
 
-      footer p {
-        color: white;
-      }
+footer p {
+    color: white;
+}
+
+/* Aula 5 */
+body{
+    font-family: Arial, sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+/* Aula 6 */
+header {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;*/
+
+}
+
+nav {
+    /*display: flex;
+    gap: 20px;*/
+}
+
+.projetos-grid {
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;*/
+}
